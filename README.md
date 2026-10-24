@@ -2,7 +2,7 @@
 
 # lomme
 
-**A small, thoughtful archive utility for Windows.**
+**A simple, Mac-like archive utility for Windows — calm, clean, and easy to use.**
 
 Create and extract ZIP and 7Z archives. Extract RAR archives, too.
 
