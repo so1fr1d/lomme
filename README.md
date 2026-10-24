@@ -40,35 +40,13 @@ To look inside an archive instead, select **Open with lomme** from File Explorer
 
 ## Features
 
-### Work with archives like ordinary files
+lomme works with archives much like File Explorer: browse folders, drag files in or out, double-click to open, and add or remove items in supported formats.
 
-- **Drag in:** add files and folders to an open ZIP or 7Z archive by dragging them into lomme.
-- **Drag out:** drag items from an archive into File Explorer to extract them.
-- **Browse without extracting:** inspect an archive's folders and files before deciding what to unpack.
-- **Open by double-clicking:** launch files inside archives with their associated Windows apps, using temporary extracted copies.
-- **Edit archive contents:** add or delete entries in supported writable archive formats (ZIP and 7Z). RAR remains read-only.
-- **Extract only what you need:** select individual items or folders and extract those instead of unpacking everything.
+- **Quick extract:** double-click an associated archive to extract it without bringing the main app to the foreground. Small archives may finish before a progress window appears.
+- **Password protection:** create encrypted archives; 7Z supports Unicode passwords and file-name encryption, while ZIP creation uses ASCII passwords for compatibility.
+- **ESC shortcuts:** close an idle window or dismiss a dialog with ESC, while active operations are protected from accidental closing.
 
-### Quick extraction, without getting in your way
-
-- **Double-click an archive in Explorer** to extract it immediately when lomme is its default application.
-- **Extract here** from the context menu to unpack next to the archive.
-- Quick operations need little attention; a progress dialog appears when there's enough work to show.
-- For larger operations, an extraction progress dialog lets you see or cancel the work.
-
-### Create and protect archives
-
-- Create ZIP and 7Z archives from inside lomme.
-- Select multiple files and folders in File Explorer and choose **Compress with lomme**.
-- Create password-protected archives; 7Z supports Unicode passwords and file-name encryption. ZIP creation uses ASCII passwords for compatibility.
-
-### At home on Windows
-
-- **Light and dark themes** with distinct document icons for ZIP, 7Z, and RAR.
-- **Eight interface languages:** Korean, English, Japanese, Simplified Chinese, Traditional Chinese, French, Spanish, and German.
-- **ESC behavior:** close the idle main window with ESC, dismiss dialogs with ESC, and prevent an active operation from being closed accidentally.
-- **Per-user installation** with an installer and uninstaller; app settings are removed on uninstall, not your personal archive files.
-- **Explorer integration** for opening, extracting, and compressing, available in Windows 11 under **Show more options**.
+Light and dark themes, eight interface languages, and File Explorer integration are included.
 
 ### Explore an archive
 
