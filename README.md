@@ -34,6 +34,8 @@ Double-click a supported archive when lomme is its default app to extract it rig
   <img src="assets/extract-demo.gif" width="480" alt="lomme automatically extracting a ZIP archive">
 </p>
 
+*For smaller archives, extraction may finish so quickly that the progress window never appears.*
+
 To look inside an archive instead, select **Open with lomme** from File Explorer's context menu.
 
 ## Features
