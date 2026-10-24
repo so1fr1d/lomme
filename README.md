@@ -1,64 +1,94 @@
 <div align="center">
 
-<img src="assets/logo.webp" width="112" alt="lomme icon">
+<img src="assets/logo.png" width="116" alt="lomme application icon">
 
 # lomme
 
 **A simple, Mac-like archive utility for Windows — calm, clean, and easy to use.**
 
-ZIP / 7Z / RAR · Windows 11 · 8 languages
+Windows 11 · ZIP / 7Z / RAR · Eight languages
 
-[**Releases**](https://github.com/so1fr1d/lomme/releases)
+[**Download (coming soon)**](https://github.com/so1fr1d/lomme/releases) · [Features](#features) · [Installation](#installation)
 
 </div>
 
----
+<p align="center">
+  <img src="assets/main-light-dark.png" alt="lomme showing a ZIP archive in light and dark themes" width="900">
+</p>
 
 ## Meet lomme
 
-A compact archive utility with a native Windows interface, light and dark themes, and familiar File Explorer integration.
-
-<!-- Final image placement: assets/main-light-dark.webp -->
+A small native Windows archive utility, with a familiar interface for browsing, creating, and extracting archives. No clutter, just the essentials.
 
 | Format | Create | Extract |
 | :--- | :---: | :---: |
-| ZIP | Yes | Yes |
-| 7Z | Yes | Yes |
-| RAR | No | Yes |
+| **ZIP** | ✓ | ✓ |
+| **7Z** | ✓ | ✓ |
+| **RAR** | — | ✓ |
 
-## Built for everyday archives
+## In action
 
-- Create ZIP and 7Z archives, and open or extract ZIP, 7Z, and RAR archives.
-- **Open with lomme**, **Extract here**, and **Compress with lomme** from File Explorer's **Show more options** menu on Windows 11.
-- Eight interface languages: Korean, English, Japanese, Simplified Chinese, Traditional Chinese, French, Spanish, and German.
-- Password-protected ZIP and 7Z archives, with format-specific restrictions.
+Double-click a supported archive when lomme is its default app to extract it right away.
 
-<!-- Final image placement: assets/archive-window.webp and assets/languages.webp -->
-<!-- Final animation placement: assets/extract-demo.gif -->
+<p align="center">
+  <img src="assets/extract-demo.gif" width="480" alt="lomme automatically extracting a ZIP archive">
+</p>
 
-## Download
+To look inside an archive instead, select **Open with lomme** from File Explorer's context menu.
 
-**The first public release, v1.0.0, is in preparation.** Once available, download the installer from [GitHub Releases](https://github.com/so1fr1d/lomme/releases).
+## Features
 
-The installer is intended for Windows 11 x64, installs for the current Windows user, and does not automatically change default applications. Choose lomme as the default app for `.zip`, `.7z`, and `.rar` in **Windows Settings → Apps → Default apps**, if desired.
+- **Light and dark:** a compact Windows-native UI with two themes.
+- **Archive browsing:** open ZIP, 7Z, and RAR files and extract selected contents.
+- **File Explorer integration:** open, extract, or create archives from Explorer's **Show more options** context menu on Windows 11.
+- **Password support:** encrypted ZIP and 7Z archives, with format-specific restrictions.
+- **Eight UI languages:** Korean, English, Japanese, Simplified Chinese, Traditional Chinese, French, Spanish, and German.
 
-When lomme is the default app, double-clicking a supported archive extracts it. To inspect the contents first, choose **Open with lomme**.
+### Explore an archive
 
-## Good to know
+<p align="center">
+  <img src="assets/archive-window.png" alt="A ZIP archive opened in lomme" width="900">
+</p>
 
-- RAR archives can be read and extracted but not created.
-- Use ASCII-only passwords for ZIP creation; 7Z passwords support Unicode.
-- Changes to files opened temporarily from an archive are not automatically written back into the archive.
-- Windows 11 x64 is the tested platform; Windows 10 is not verified.
-- The first installer is expected to be **unsigned**.
-- The 1.0 installer is not an in-place upgrade path for previous 0.4.x installations.
+### Choose your language
+
+<p align="center">
+  <img src="assets/languages.png" alt="lomme language selection menu" width="300">
+</p>
+
+## Installation
+
+**Version 1.0.0 is being prepared for its first public release.** When available, download the installer from [GitHub Releases](https://github.com/so1fr1d/lomme/releases).
+
+The installer supports eight languages and installs for the current Windows account. It doesn't automatically change your default apps: to associate `.zip`, `.7z`, and `.rar` with lomme, visit **Windows Settings → Apps → Default apps**.
+
+<p align="center">
+  <img src="assets/installer.png" alt="lomme Windows installer" width="600">
+</p>
+
+### File Explorer commands
+
+- **Open with lomme** — browse archive contents.
+- **Extract here** — extract alongside the archive.
+- **Compress with lomme** — create ZIP or 7Z archives from files and folders.
+
+On Windows 11, these commands appear under **Show more options**.
+
+## Notes
+
+- **RAR extraction only:** creating or modifying RAR archives is not supported.
+- Use ASCII passwords when creating ZIP archives. 7Z supports Unicode passwords.
+- Files opened temporarily from an archive are not automatically written back if edited.
+- **Windows 11 x64** is the tested platform. Windows 10 is not verified.
+- The public installer is planned to be **unsigned**. Its SHA-256 checksum will be provided with the release; keep Windows security protection enabled.
+- The 1.0 installer is **not** an automatic in-place upgrade for older lomme 0.4.x installations.
 
 ## Uninstall
 
-Open **Windows Settings → Apps → Installed apps** and uninstall lomme. This removes lomme's settings, but not your own archive files, even if lomme is still your default archive app.
+Remove lomme via **Windows Settings → Apps → Installed apps**. App-specific settings are deleted on uninstall, while your personal archive files are preserved. Uninstall remains available even if lomme is your default archive app.
 
-## Credits and licenses
+## Credits & licenses
 
-**lomme** by **so1fr1d**.
+Made by **so1fr1d**.
 
-Uses third-party components including 7-Zip 26.04 and Pretendard 1.3.9. Their licenses and applicable source-availability materials will be included in the release package. lomme's own distribution terms will be published with the first release.
+lomme bundles third-party components including **7-Zip 26.04** and **Pretendard 1.3.9**. Their respective notices and applicable source-availability files will accompany the first release. lomme's own distribution terms will be finalized before public release.
