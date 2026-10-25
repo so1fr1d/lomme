@@ -1,0 +1,33 @@
+lomme Freeware License
+Copyright (c) 2026 so1fr1d. All rights reserved.
+
+1. Permission to use
+You may install and use lomme without charge for personal and commercial purposes.
+lomme's own source code remains proprietary. This license does not grant access
+to that source code or permission to distribute modified lomme versions.
+
+2. Distribution
+You may share links to the official lomme download page at
+https://github.com/so1fr1d/lomme/releases . Redistributing, mirroring, repackaging,
+or selling the lomme installer or lomme's proprietary components requires prior
+permission from so1fr1d. This condition does not restrict independently licensed
+third-party components or any rights granted by their licenses or applicable law.
+
+3. Third-party components and legal rights
+7-Zip, Pretendard and Inno Setup retain their own copyright notices and licenses.
+Those licenses govern their respective components. Nothing in this license
+limits rights to use, copy, modify, replace, redistribute or reverse engineer
+those components where their licenses or applicable law permit it. Mandatory
+statutory rights are not excluded. See THIRD-PARTY-NOTICES.txt and the supplied
+license texts and version-matched 7-Zip source archive.
+
+4. Warranty and liability
+To the extent permitted by applicable law, lomme is provided "as is", without
+warranties of any kind, express or implied, including merchantability, fitness
+for a particular purpose and non-infringement. To that same extent, the copyright
+holder is not liable for damages or losses arising from use of, or inability to
+use, lomme. This limitation does not apply where applicable law prohibits it.
+
+5. Branding
+No permission is granted to use the lomme name or artwork to imply endorsement
+of another or modified product.
