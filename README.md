@@ -95,4 +95,4 @@ Remove lomme via **Windows Settings → Apps → Installed apps**. App-specific 
 
 Made by **so1fr1d**.
 
-lomme bundles third-party components including **7-Zip 26.04** and **Pretendard 1.3.9**. Their respective notices and applicable source-availability files will accompany the first release. lomme's own distribution terms will be finalized before public release.
+lomme is free for personal and commercial use under its [freeware license](LICENSE.txt); the proprietary installer may not be redistributed without permission. Third-party rights remain separate. See [third-party notices](THIRD-PARTY-NOTICES.txt) and the source/license archives included with the release.
