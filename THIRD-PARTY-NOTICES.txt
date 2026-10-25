@@ -1,0 +1,27 @@
+﻿lomme uses unmodified 7-Zip 26.04 executables (7z.exe and 7z.dll).
+7-Zip Copyright (C) 1999-2026 Igor Pavlov.
+7-Zip is licensed primarily under GNU LGPL 2.1 or later, with additional
+unRAR and BSD terms for certain components. See engine/License.txt.
+Official project and source: https://www.7-zip.org/
+Exact release source: https://github.com/ip7z/7zip/releases/download/26.04/7z2604-src.7z
+lomme launches 7z.exe as a separate process. Engine binaries are not modified.
+
+Windows shell integration references:
+https://learn.microsoft.com/windows/apps/desktop/modernize/integrate-packaged-app-with-file-explorer
+https://learn.microsoft.com/windows/msix/package/unsigned-package
+
+The RAR regression fixture used during development comes from libarchive's
+test_read_format_rar_windows.rar.uu (not included in this app distribution):
+https://github.com/libarchive/libarchive/tree/master/libarchive/test
+
+Pretendard v1.3.9 Regular and Medium (unmodified TrueType fonts).
+Copyright (c) 2021, Kil Hyung-jin; Reserved Font Name Pretendard.
+Licensed under SIL Open Font License 1.1. Full license: Fonts/OFL.txt.
+Official source: https://github.com/orioncactus/pretendard/tree/v1.3.9
+Fonts are loaded privately for this process; no system font installation.
+
+Installer: Inno Setup 6.7.3, Jordan Russell / Martijn Laan. Copyright notices and About links retained. See INNO-LICENSE.txt and https://jrsoftware.org/.
+Exact 7-Zip 26.04 source archive is provided as a companion release asset: 7z2604-src.7z. Preserve it alongside public downloads.
+
+Full LGPL 2.1 text: LGPL-2.1.txt. Additional unRAR terms: UNRAR-LICENSE.txt.
+Both copied from the exact 26.04 source archive. Engine and fonts are unchanged.
