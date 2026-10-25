@@ -8,7 +8,7 @@
 
 Windows 11 · ZIP / 7Z / RAR · Eight languages
 
-[**Download (coming soon)**](https://github.com/so1fr1d/lomme/releases) · [Features](#features) · [Installation](#installation)
+[**Download v1.0.0**](https://github.com/so1fr1d/lomme/releases/tag/v1.0.0) · [Features](#features) · [Installation](#installation)
 
 </div>
 
@@ -62,7 +62,7 @@ Light and dark themes, eight interface languages, and File Explorer integration 
 
 ## Installation
 
-**Version 1.0.0 is being prepared for its first public release.** When available, download the installer from [GitHub Releases](https://github.com/so1fr1d/lomme/releases).
+**Version 1.0.0 is available now.** Download `lomme-setup-1.0.0.exe` from the [v1.0.0 release](https://github.com/so1fr1d/lomme/releases/tag/v1.0.0).
 
 The installer supports eight languages and installs for the current Windows account. It doesn't automatically change your default apps: to associate `.zip`, `.7z`, and `.rar` with lomme, visit **Windows Settings → Apps → Default apps**.
 
@@ -84,7 +84,7 @@ On Windows 11, these commands appear under **Show more options**.
 - Use ASCII passwords when creating ZIP archives. 7Z supports Unicode passwords.
 - Files opened temporarily from an archive are not automatically written back if edited.
 - **Windows 11 x64** is the tested platform. Windows 10 is not verified.
-- The public installer is planned to be **unsigned**. Its SHA-256 checksum will be provided with the release; keep Windows security protection enabled.
+- The public installer is **unsigned**. Verify its SHA-256 checksum against `SHA256SUMS.txt` in the release; keep Windows security protection enabled.
 - The 1.0 installer is **not** an automatic in-place upgrade for older lomme 0.4.x installations.
 
 ## Uninstall
