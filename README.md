@@ -13,7 +13,7 @@
 A small, Mac-like archive utility for Windows — calm, clean, and easy to use. Create ZIP and 7Z archives, extract ZIP, 7Z and RAR files, and work with their contents as naturally as you would in File Explorer.
 
 <p align="center">
-  <img src="assets/half-main-2.png" alt="lomme archive window shown in both light and dark themes" width="900">
+  <img src="assets/half-main-3.png" alt="lomme archive window shown in both light and dark themes" width="900">
 </p>
 
 | Format | Create | Extract |
@@ -47,13 +47,13 @@ Light and dark themes, eight interface languages, and File Explorer integration 
 ### Explore an archive
 
 <p align="center">
-  <img src="assets/archive-window.png" alt="A ZIP archive opened in lomme" width="900">
+  <img src="assets/archive-window.png" alt="A ZIP archive opened in lomme" width="820">
 </p>
 
-### Choose your language
+### Eight languages
 
 <p align="center">
-  <img src="assets/languages.png" alt="lomme language selection menu" width="300">
+  <img src="assets/languages.png" alt="lomme language selection menu" width="270">
 </p>
 
 ## Installation
@@ -63,7 +63,7 @@ Light and dark themes, eight interface languages, and File Explorer integration 
 The installer supports eight languages and installs for the current Windows account. It doesn't automatically change your default apps: to associate `.zip`, `.7z`, and `.rar` with lomme, visit **Windows Settings → Apps → Default apps**.
 
 <p align="center">
-  <img src="assets/installer.png" alt="lomme Windows installer" width="600">
+  <img src="assets/installer.png" alt="lomme Windows installer" width="620">
 </p>
 
 ### File Explorer commands
