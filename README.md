@@ -1,24 +1,20 @@
 <div align="center">
 
-<img src="assets/logo.png" width="116" alt="lomme application icon">
+<img src="assets/lomme-hero.png" alt="lomme — a simple, Mac-like archive utility for Windows, with ZIP, 7Z and RAR icons" width="900">
 
-# lomme
-
-**A simple, Mac-like archive utility for Windows — calm, clean, and easy to use.**
-
-Windows 11 · ZIP / 7Z / RAR · Eight languages
+<br>
 
 [**Download v1.0.0**](https://github.com/so1fr1d/lomme/releases/tag/v1.0.0) · [Features](#features) · [Installation](#installation)
 
 </div>
 
-<p align="center">
-  <img src="assets/main-light-dark.png" alt="lomme showing a ZIP archive in light and dark themes" width="900">
-</p>
-
 ## Meet lomme
 
-A small native Windows archive utility, with a familiar interface for browsing, creating, and extracting archives. No clutter, just the essentials.
+A small, Mac-like archive utility for Windows — calm, clean, and easy to use. Create ZIP and 7Z archives, extract ZIP, 7Z and RAR files, and work with their contents as naturally as you would in File Explorer.
+
+<p align="center">
+  <img src="assets/half-main-2.png" alt="lomme archive window shown in both light and dark themes" width="900">
+</p>
 
 | Format | Create | Extract |
 | :--- | :---: | :---: |
